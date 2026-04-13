@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                          |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------------------------------ |
-| live.limo     | available | $19.99    | $71.99        | 108            | 56     | 4      | name.com                                                           |
-| get.limo      | resell    | —         | —             | 88             | 69     | 3      | Sav.com, LLC - 13                                                  |
-| free.limo     | premium   | $123.75   | $123.75       | 88             | 59     | 4      | name.com                                                           |
-| good.limo     | available | $19.99    | $71.99        | 82             | 55     | 4      | name.com                                                           |
-| fun.limo      | resell    | —         | —             | 122            | 62     | 3      | GoDaddy Online Services Cayman Islands Ltd.                        |
-| travel.limo   | premium   | $128.70   | $128.70       | 115            | 48     | 6      | namecheap                                                          |
-| fast.limo     | available | $19.99    | $71.99        | 82             | 53     | 4      | name.com                                                           |
-| home.limo     | resell    | —         | —             | 100            | 62     | 4      | Sav.com, LLC - 31                                                  |
-| all.limo      | premium   | $123.75   | $123.75       | 88             | 48     | 3      | name.com                                                           |
-| true.limo     | available | $19.99    | $71.99        | 86             | 52     | 4      | name.com                                                           |
-| cloud.limo    | resell    | —         | —             | 70             | 59     | 5      | Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság |
-| gold.limo     | premium   | $85.80    | $85.80        | 72             | 48     | 4      | namecheap                                                          |
-| life.limo     | available | $68.98    | —             | 84             | 50     | 4      | namecheap                                                          |
-| search.limo   | resell    | —         | —             | 70             | 57     | 6      | GoDaddy.com, LLC                                                   |
-| big.limo      | premium   | $123.75   | $123.75       | 88             | 47     | 3      | name.com                                                           |
-| clear.limo    | available | $19.99    | $71.99        | 90             | 49     | 5      | name.com                                                           |
-| smart.limo    | resell    | —         | —             | 74             | 56     | 5      | Spaceship, Inc.                                                    |
-| green.limo    | premium   | $520      | $520          | 108            | 44     | 5      | namecheap                                                          |
-| security.limo | available | $68.98    | —             | 70             | 49     | 8      | namecheap                                                          |
-| shop.limo     | resell    | —         | —             | 78             | 54     | 4      | Spaceship, Inc.                                                    |
+| domain      | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                          |
+| ----------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------------------------------ |
+| live.limo   | available | $19.99    | $71.99        | 108            | 56     | 4      | name.com                                                           |
+| get.limo    | resell    | —         | —             | 88             | 69     | 3      | Sav.com, LLC - 13                                                  |
+| free.limo   | premium   | $123.75   | $123.75       | 88             | 57     | 4      | name.com                                                           |
+| good.limo   | available | $19.99    | $71.99        | 82             | 55     | 4      | name.com                                                           |
+| fun.limo    | resell    | —         | —             | 122            | 62     | 3      | GoDaddy Online Services Cayman Islands Ltd.                        |
+| travel.limo | premium   | $128.70   | $128.70       | 115            | 48     | 6      | namecheap                                                          |
+| true.limo   | available | $19.99    | $71.99        | 86             | 52     | 4      | name.com                                                           |
+| home.limo   | resell    | —         | —             | 100            | 62     | 4      | Sav.com, LLC - 31                                                  |
+| all.limo    | premium   | $123.75   | $123.75       | 88             | 48     | 3      | name.com                                                           |
+| fast.limo   | available | $19.99    | $71.99        | 82             | 52     | 4      | name.com                                                           |
+| cloud.limo  | resell    | —         | —             | 70             | 59     | 5      | Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság |
+| gold.limo   | premium   | $85.80    | $85.80        | 72             | 48     | 4      | namecheap                                                          |
+| life.limo   | available | $68.98    | —             | 84             | 50     | 4      | namecheap                                                          |
+| search.limo | resell    | —         | —             | 70             | 57     | 6      | GoDaddy.com, LLC                                                   |
+| big.limo    | premium   | $123.75   | $123.75       | 88             | 47     | 3      | name.com                                                           |
+| simple.limo | available | $19.99    | $71.99        | 128            | 49     | 6      | name.com                                                           |
+| smart.limo  | resell    | —         | —             | 74             | 56     | 5      | Spaceship, Inc.                                                    |
+| green.limo  | premium   | $520      | $520          | 108            | 44     | 5      | namecheap                                                          |
+| clear.limo  | available | $19.99    | $71.99        | 90             | 49     | 5      | name.com                                                           |
+| shop.limo   | resell    | —         | —             | 78             | 54     | 4      | Spaceship, Inc.                                                    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
