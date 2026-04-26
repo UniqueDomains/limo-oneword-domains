@@ -1,22 +1,22 @@
-# Available .LIMO One-Word Domains (9,708)
+# Available .LIMO One-Word Domains (12,166)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C708%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C708%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C166%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .limo one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .limo one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **12,166 domains** on the canonical page below.
 
-**Public extract:** 9,708 rows · **Live catalog:** 9,708 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,166 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/limo`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .LIMO one-word domain 
 
 ### Files
 
-- `limo.csv` — public CSV extract (9,708 rows)
-- `limo.json` — public JSON extract (9,708 rows)
+- `limo.csv` — public CSV extract (1,000 rows)
+- `limo.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain      | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                          |
-| ----------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------------------------------ |
-| live.limo   | available | $19.99    | $71.99        | 108            | 56     | 4      | name.com                                                           |
-| get.limo    | resell    | —         | —             | 88             | 69     | 3      | Sav.com, LLC - 13                                                  |
-| free.limo   | premium   | $123.75   | $123.75       | 88             | 57     | 4      | name.com                                                           |
-| good.limo   | available | $19.99    | $71.99        | 82             | 55     | 4      | name.com                                                           |
-| fun.limo    | resell    | —         | —             | 122            | 62     | 3      | GoDaddy Online Services Cayman Islands Ltd.                        |
-| travel.limo | premium   | $128.70   | $128.70       | 115            | 48     | 6      | namecheap                                                          |
-| true.limo   | available | $19.99    | $71.99        | 86             | 52     | 4      | name.com                                                           |
-| home.limo   | resell    | —         | —             | 100            | 62     | 4      | Sav.com, LLC - 31                                                  |
-| all.limo    | premium   | $123.75   | $123.75       | 88             | 48     | 3      | name.com                                                           |
-| fast.limo   | available | $19.99    | $71.99        | 82             | 52     | 4      | name.com                                                           |
-| cloud.limo  | resell    | —         | —             | 70             | 59     | 5      | Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság |
-| gold.limo   | premium   | $85.80    | $85.80        | 72             | 48     | 4      | namecheap                                                          |
-| life.limo   | available | $68.98    | —             | 84             | 50     | 4      | namecheap                                                          |
-| search.limo | resell    | —         | —             | 70             | 57     | 6      | GoDaddy.com, LLC                                                   |
-| big.limo    | premium   | $123.75   | $123.75       | 88             | 47     | 3      | name.com                                                           |
-| simple.limo | available | $19.99    | $71.99        | 128            | 49     | 6      | name.com                                                           |
-| smart.limo  | resell    | —         | —             | 74             | 56     | 5      | Spaceship, Inc.                                                    |
-| green.limo  | premium   | $520      | $520          | 108            | 44     | 5      | namecheap                                                          |
-| clear.limo  | available | $19.99    | $71.99        | 90             | 49     | 5      | name.com                                                           |
-| shop.limo   | resell    | —         | —             | 78             | 54     | 4      | Spaceship, Inc.                                                    |
+| domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
+| ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| skills.limo        | available | $19.99    | —             | 58             | 47     | 6      | name.com  |
+| jobs.limo          | premium   | $500      | —             | 79             | 42     | 4      | name.com  |
+| shortcuts.limo     | available | $19.99    | —             | 48             | 41     | 10     | name.com  |
+| reservations.limo  | premium   | $123.75   | —             | 50             | 17     | 12     | name.com  |
+| Tools.limo         | available | $68.98    | —             | 56             | 40     | 5      | namecheap |
+| VirginiaBeach.limo | premium   | $280      | $280          | 58             | 9      | 14     | namecheap |
+| neuroscience.limo  | available | $19.99    | —             | 80             | 37     | 12     | name.com  |
+| tokens.limo        | available | $19.99    | —             | 51             | 36     | 6      | name.com  |
+| aliens.limo        | available | $19.99    | —             | 56             | 35     | 6      | name.com  |
+| homes.limo         | available | $19.99    | —             | 86             | 34     | 5      | name.com  |
+| tickets.limo       | available | $19.99    | —             | 64             | 34     | 7      | name.com  |
+| Cats.limo          | available | $68.98    | —             | 59             | 33     | 4      | namecheap |
+| payments.limo      | available | $19.99    | —             | 58             | 33     | 8      | name.com  |
+| partners.limo      | available | $19.99    | —             | 61             | 32     | 8      | name.com  |
+| William.limo       | available | $68.98    | —             | 74             | 31     | 7      | namecheap |
+| maps.limo          | available | $19.99    | —             | 56             | 31     | 4      | name.com  |
+| inspiration.limo   | available | $19.99    | —             | 88             | 30     | 11     | name.com  |
+| rewards.limo       | available | $19.99    | —             | 62             | 30     | 7      | name.com  |
+| dogs.limo          | available | $19.99    | —             | 76             | 28     | 4      | name.com  |
+| forms.limo         | available | $19.99    | —             | 54             | 28     | 5      | name.com  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,708-row public sample | 9,708 live domains                               |
+| 1,000-row public sample | 12,166 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
