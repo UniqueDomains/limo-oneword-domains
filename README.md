@@ -1,10 +1,10 @@
-# Available .LIMO One-Word Domains (12,679)
+# Available .LIMO One-Word Domains (12,681)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C679%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C681%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .limo one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **12,679 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **12,681 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,679 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,681 domains · **Median ask:** $24.73 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-01  
+**Last updated:** 2026-05-06  
 **Canonical page:** `https://unique.domains/domains/tld/limo`  
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,15 @@ print(df.head())
 
 | domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
 | ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
+| homes.limo         | available | $19.99    | —             | 86             | 34     | 5      | name.com  |
+| finals.limo        | available | $19.99    | —             | 80             | 7      | 6      | name.com  |
+| useit.limo         | available | $19.99    | —             | 94             | 7      | 6      | name.com  |
+| dogsit.limo        | available | $19.99    | —             | 96             | 2      | 6      | name.com  |
+| edamame.limo       | available | $19.99    | —             | 80             | 9      | 7      | name.com  |
+| gearup.limo        | available | $19.99    | —             | 80             | 16     | 7      | name.com  |
+| hangon.limo        | available | $19.99    | —             | 82             | 6      | 7      | name.com  |
+| stirup.limo        | available | $19.99    | —             | 82             | 3      | 7      | name.com  |
+| dogsick.limo       | available | $19.99    | —             | 90             | 1      | 7      | name.com  |
 | skills.limo        | available | $19.99    | —             | 58             | 47     | 6      | name.com  |
 | jobs.limo          | premium   | $500      | —             | 79             | 42     | 4      | name.com  |
 | shortcuts.limo     | available | $19.99    | —             | 48             | 41     | 10     | name.com  |
@@ -71,19 +80,10 @@ print(df.head())
 | Tools.limo         | available | $68.98    | —             | 56             | 40     | 5      | namecheap |
 | VirginiaBeach.limo | premium   | $280      | $280          | 58             | 9      | 14     | namecheap |
 | neuroscience.limo  | available | $19.99    | —             | 80             | 37     | 12     | name.com  |
-| homes.limo         | available | $19.99    | —             | 86             | 34     | 5      | name.com  |
 | tickets.limo       | available | $19.99    | —             | 64             | 34     | 7      | name.com  |
 | Cats.limo          | available | $68.98    | —             | 59             | 33     | 4      | namecheap |
 | payments.limo      | available | $19.99    | —             | 58             | 33     | 8      | name.com  |
 | partners.limo      | available | $19.99    | —             | 61             | 32     | 8      | name.com  |
-| William.limo       | available | $68.98    | —             | 74             | 31     | 7      | namecheap |
-| maps.limo          | available | $19.99    | —             | 56             | 31     | 4      | name.com  |
-| inspiration.limo   | available | $19.99    | —             | 88             | 30     | 11     | name.com  |
-| rewards.limo       | available | $19.99    | —             | 62             | 30     | 7      | name.com  |
-| dogs.limo          | available | $19.99    | —             | 76             | 28     | 4      | name.com  |
-| forms.limo         | available | $19.99    | —             | 54             | 28     | 5      | name.com  |
-| systems.limo       | available | $19.99    | —             | 46             | 27     | 7      | name.com  |
-| traders.limo       | available | $19.99    | —             | 60             | 26     | 7      | name.com  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -91,13 +91,13 @@ These rows are selected to show a more legible mix of visible asks, resale conte
 
 You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
 
-| GitHub extract          | Unique Domains                                   |
-| ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 12,679 live domains                              |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
+| GitHub extract          | Unique Domains                             |
+| ----------------------- | ------------------------------------------ |
+| 1,000-row public sample | 12,681 live domains                        |
+| Static CSV / JSON       | live search and daily refresh              |
+| Basic exported fields   | 0 high-demand names under $2,500           |
+| No persistence          | Radar, saved search, and alerts            |
+| No founder workflow     | Project, shortlist, and next-step workflow |
 
 If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
@@ -120,13 +120,12 @@ See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This repository follows the exact public search represented by the canonical page above.
+These domains are all in the .limo extension, which gives the selection a very specific commercial profile. Some names read naturally with transport, events, travel, nightlife, or premium service positioning. Others are broad words that are memorable but may feel less directly tied to limousine use. Examples like tips.limo, girls.limo, WiFi.limo, and jewels.limo show the range: from practical service terms to more open-ended brand plays. With a median ask of 24.73, price is relatively approachable in this set. The harder judgment is whether the word makes the extension feel more credible, more useful, or more brandable for the end buyer.
 
-- This repository is a public extract, not the full live catalog.
-- Counts, prices, and statuses can change over time.
-- Scores are decision-support signals, not guarantees of resale value.
-- Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
+- Favor words that make natural sense with .limo
+- Check if the term feels brandable or purely literal
+- Low ask does not remove niche-extension risk
+- Avoid words with obvious trademark exposure
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -143,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-05-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
