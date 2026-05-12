@@ -181,6 +181,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 110e0980-81b4-48a3-9b0d-d851b68307e1,toexcess.limo,available,19.99,,55,0,9,name.com,,
 111a2e24-57a4-43b2-825b-bc8027feb928,kicks.limo,available,19.99,,77,15,5,name.com,,
 113e4ae0-4236-4e0c-a3b6-9a2672467003,rumcake.limo,available,19.99,,81,3,8,name.com,,
+11418b25-0239-4243-ba9a-5cd615cd4f16,rideshare.limo,premium,,,80,15,9,,,
 1145ec76-83bb-4220-9a1d-b6306cfa95fb,walktheline.limo,available,19.99,,68,3,13,name.com,,
 114c87a3-a901-43c6-8c2e-fc7678f7e0cf,getittogether.limo,available,19.99,,75,3,15,name.com,,
 114f4472-7a30-4035-9a70-694846055d6a,toweather.limo,available,19.99,,48,1,10,name.com,,
@@ -998,4 +999,3 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 52473b37-7a0b-4047-aa84-5fc73e6461f9,guns.limo,available,19.99,,68,22,4,name.com,,
 5248f035-d1a5-4da8-9da6-0543698bb6e2,makeupfriend.limo,available,19.99,,60,1,14,name.com,,
 5298a551-d616-4a0a-a709-06770541c25b,makeinteresting.limo,available,19.99,,72,1,16,name.com,,
-52b6e9c3-2c48-42db-9293-7a1980f4ac80,smashandgrab.limo,available,19.99,,48,2,14,name.com,,

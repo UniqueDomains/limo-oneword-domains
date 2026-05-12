@@ -80,10 +80,10 @@ print(df.head())
 | Tools.limo         | available | $68.98    | —             | 56             | 40     | 5      | namecheap |
 | VirginiaBeach.limo | premium   | $280      | $280          | 58             | 9      | 14     | namecheap |
 | neuroscience.limo  | available | $19.99    | —             | 80             | 37     | 12     | name.com  |
+| rideshare.limo     | premium   | —         | —             | 80             | 15     | 9      | —         |
 | tickets.limo       | available | $19.99    | —             | 64             | 34     | 7      | name.com  |
 | Cats.limo          | available | $68.98    | —             | 59             | 33     | 4      | namecheap |
 | payments.limo      | available | $19.99    | —             | 58             | 33     | 8      | name.com  |
-| partners.limo      | available | $19.99    | —             | 61             | 32     | 8      | name.com  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
