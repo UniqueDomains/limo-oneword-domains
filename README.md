@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .limo one-word domains from
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **12,682 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 12,682 domains · **Median ask:** $24.73 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 12,682 domains · **Median ask:** $22.68 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-26  
-**Canonical page:** `https://unique.domains/domains/tld/limo`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/limo`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .LIMO one-word domain 
 
 ### Files
 
-- `limo.csv` — public CSV extract (1,000 rows)
-- `limo.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `limo.csv`, public CSV extract (1,000 rows)
+- `limo.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar |
-| ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | --------- |
-| homes.limo         | available | $19.99    | —             | 86             | 34     | 5      | name.com  |
-| finals.limo        | available | $19.99    | —             | 80             | 7      | 6      | name.com  |
-| useit.limo         | available | $19.99    | —             | 94             | 7      | 6      | name.com  |
-| dogsit.limo        | available | $19.99    | —             | 96             | 2      | 6      | name.com  |
-| edamame.limo       | available | $19.99    | —             | 80             | 9      | 7      | name.com  |
-| gearup.limo        | available | $19.99    | —             | 80             | 16     | 7      | name.com  |
-| hangon.limo        | available | $19.99    | —             | 82             | 6      | 7      | name.com  |
-| stirup.limo        | available | $19.99    | —             | 82             | 3      | 7      | name.com  |
-| dogsick.limo       | available | $19.99    | —             | 90             | 1      | 7      | name.com  |
-| skills.limo        | available | $19.99    | —             | 58             | 47     | 6      | name.com  |
-| jobs.limo          | premium   | $500      | —             | 79             | 42     | 4      | name.com  |
-| shortcuts.limo     | available | $19.99    | —             | 48             | 41     | 10     | name.com  |
-| reservations.limo  | premium   | $123.75   | —             | 50             | 17     | 12     | name.com  |
-| Tools.limo         | available | $68.98    | —             | 56             | 40     | 5      | namecheap |
-| VirginiaBeach.limo | premium   | $280      | $280          | 58             | 9      | 14     | namecheap |
-| neuroscience.limo  | available | $19.99    | —             | 80             | 37     | 12     | name.com  |
-| rideshare.limo     | premium   | —         | —             | 80             | 15     | 9      | —         |
-| tickets.limo       | available | $19.99    | —             | 64             | 34     | 7      | name.com  |
-| Cats.limo          | available | $68.98    | —             | 59             | 33     | 4      | namecheap |
-| payments.limo      | available | $19.99    | —             | 58             | 33     | 8      | name.com  |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                          |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------------------------------ |
+| out.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| bad.limo      | available | $19.99    | —             | high           | medium | 3      | name.com                                                           |
+| content.limo  | available | $19.99    | $71.99        | high           | low    | 7      | name.com                                                           |
+| act.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| cloud.limo    | resell    | —         | —             | high           | medium | 5      | Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság |
+| all.limo      | premium   | $123.75   | $123.75       | high           | medium | 3      | name.com                                                           |
+| ash.limo      | available | $19.99    | —             | medium         | low    | 3      | name.com                                                           |
+| motor.limo    | resell    | —         | —             | high           | low    | 5      | Sav.com, LLC - 37                                                  |
+| car.limo      | premium   | $78.54    | $78.54        | high           | medium | 3      | namesilo                                                           |
+| flying.limo   | resell    | —         | —             | high           | low    | 6      | GoDaddy.com, LLC                                                   |
+| ego.limo      | premium   | $118.80   | $118.80       | medium         | low    | 3      | namesilo                                                           |
+| bra.limo      | available | $19.99    | —             | medium         | low    | 3      | name.com                                                           |
+| stallion.limo | resell    | —         | —             | high           | low    | 8      | Mesh Digital Limited                                               |
+| ice.limo      | premium   | $242      | $242          | medium         | medium | 3      | namesilo                                                           |
+| bug.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| asia.limo     | premium   | $500      | —             | high           | low    | 4      | name.com                                                           |
+| cow.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| golf.limo     | premium   | $250      | —             | high           | medium | 4      | name.com                                                           |
+| eat.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| post.limo     | premium   | $500      | —             | high           | medium | 4      | name.com                                                           |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-These domains are all in the .limo extension, which gives the selection a very specific commercial profile. Some names read naturally with transport, events, travel, nightlife, or premium service positioning. Others are broad words that are memorable but may feel less directly tied to limousine use. Examples like tips.limo, girls.limo, WiFi.limo, and jewels.limo show the range: from practical service terms to more open-ended brand plays. With a median ask of 24.73, price is relatively approachable in this set. The harder judgment is whether the word makes the extension feel more credible, more useful, or more brandable for the end buyer.
+This selection includes 12,682 one-word .limo domain names, spanning everyday nouns, compound words, and industry-adjacent terms such as finals.limo, bedframe.limo, and pictures.limo. The median asking price sits near $22.68, making single-word .limo names accessible for both quick investment plays and founder-led brand launches. Because .limo is a niche, non-mainstream TLD, evaluating trademark risk, memorability, and long-term renewal cost is especially important before committing to any name in this set.
 
-- Favor words that make natural sense with .limo
-- Check if the term feels brandable or purely literal
-- Low ask does not remove niche-extension risk
-- Avoid words with obvious trademark exposure
+- 12,682 one-word .limo domain names in this set
+- Median asking price near $22.68 per domain
+- Includes everyday, compound, and thematic one-word names
+- Niche TLD: weigh renewal cost and brand recognition before buying
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
