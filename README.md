@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .limo one-word domains from
 
 **Public extract:** 1,000 rows · **Live catalog:** 22,324 domains · **Median ask:** $25.13 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-09-11
+**Last updated:** 2026-09-12
 **Canonical page:** `https://unique.domains/domains/tld/limo`
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,9 @@ print(df.head())
 
 | domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                                                          |
 | ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------------------------------------------------ |
+| out.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
+| bad.limo      | available | $19.99    | —             | high           | medium | 3      | name.com                                                           |
+| period.limo   | available | $19.99    | —             | high           | low    | 6      | name.com                                                           |
 | act.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
 | cloud.limo    | resell    | —         | —             | medium         | medium | 5      | Domain Science Kutatási Szolgáltató Korlátolt Felelősségű Társaság |
 | all.limo      | premium   | $123.75   | $123.75       | high           | medium | 3      | name.com                                                           |
@@ -73,7 +76,6 @@ print(df.head())
 | ash.limo      | available | $19.99    | —             | medium         | low    | 3      | name.com                                                           |
 | flying.limo   | resell    | —         | —             | high           | low    | 6      | GoDaddy.com, LLC                                                   |
 | ego.limo      | premium   | $118.80   | $118.80       | medium         | low    | 3      | namesilo                                                           |
-| bad.limo      | available | $19.99    | —             | high           | medium | 3      | name.com                                                           |
 | stallion.limo | resell    | —         | —             | high           | low    | 8      | Mesh Digital Limited                                               |
 | ice.limo      | premium   | $242      | $242          | medium         | medium | 3      | namesilo                                                           |
 | bra.limo      | available | $19.99    | —             | medium         | low    | 3      | name.com                                                           |
@@ -82,8 +84,6 @@ print(df.head())
 | golf.limo     | premium   | $250      | —             | high           | medium | 4      | name.com                                                           |
 | cow.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
 | post.limo     | premium   | $500      | —             | high           | medium | 4      | name.com                                                           |
-| eat.limo      | available | $19.99    | —             | high           | low    | 3      | name.com                                                           |
-| sexy.limo     | premium   | $250      | —             | high           | low    | 4      | name.com                                                           |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-09-11. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-09-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
