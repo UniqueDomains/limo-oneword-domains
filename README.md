@@ -1,10 +1,10 @@
-# Available .LIMO One-Word Domains (31,676)
+# Available .LIMO One-Word Domains (33,218)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-31%2C676%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-33%2C218%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .limo one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **31,676 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **33,218 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 31,676 domains · **Median ask:** $44.26 · **High-demand under $2,500:** 1
+**Public extract:** 1,000 rows · **Live catalog:** 33,218 domains · **Median ask:** $44.41 · **High-demand under $2,500:** 1
 
-**Last updated:** 2026-10-01
+**Last updated:** 2026-10-02
 **Canonical page:** `https://unique.domains/domains/tld/limo`
 **Best for:** founders, investors, studios
 
@@ -72,7 +72,7 @@ print(df.head())
 | sofia.limo      | premium   | $242      | $242          | high           | medium | 5      | namesilo     |
 | beg.limo        | available | $43.67    | $43.67        | high           | low    | 3      | spaceship    |
 | dublin.limo     | premium   | $220      | $220          | high           | low    | 6      | dynadot      |
-| bpm.limo        | available | $57.98    | $68.98        | high           | low    | 3      | namecheap    |
+| bnp.limo        | available | $54.99    | $54.99        | high           | low    | 3      | namesilo     |
 | ottawa.limo     | premium   | $242      | $242          | high           | low    | 6      | namesilo     |
 | byu.limo        | available | $57.98    | $68.98        | medium         | low    | 3      | namecheap    |
 | bristol.limo    | premium   | $242      | $242          | high           | low    | 7      | namesilo     |
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 31,676 live domains                        |
+| 1,000-row public sample | 33,218 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 1 high-demand names under $2,500           |
 | No persistence          | Radar, saved search, and alerts            |
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-10-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIMO One-Word Domains*. Version 2026-10-02. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
